@@ -1,0 +1,13 @@
+apply plugin:'application'
+repositories {
+mavenCentral()
+}
+run
+{
+standardInput=System.in
+}
+dependencies
+{
+compile fileTree(dir:'lib',include:'*.jar')
+}
+mainClassName ='com.thinking.machines.accounting.pl.model.CustomerFrame'
